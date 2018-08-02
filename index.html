@@ -8,6 +8,8 @@
     <link type="image/png" rel="shortcut icon" href="images/logo4.png" />
     <link rel="stylesheet" type="text/css" href="slick/slick.css">
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <script>
         $(document).ready(function() {
             $('.fade').slick({
@@ -52,10 +54,6 @@
         });
     </script>
     <style>
-        body {
-            font-family: pfhighway,Helvetica,sans-serif;
-            color: white;
-        }
         
         a.lipkiButton {
             padding: 20px 39px;
@@ -118,129 +116,18 @@
         }
         
         @font-face{font-family:pragmatica-el;src:url(fonts/pragmatica-extralight-v2.eot);src:url(fonts/pragmatica-extralight-v2.eot?#iefix) format('embedded-opentype'),url(fonts/pragmatica-extralight-v2.woff) format('woff'),url(fonts/pragmatica-extralight-v2.ttf) format('truetype');font-weight:100;font-style:normal}@font-face{font-family:pragmatica;src:url(fonts/pragmatica-light-v2.eot);src:url(fonts/pragmatica-light-v2.eot?#iefix) format('embedded-opentype'),url(fonts/pragmatica-light-v2.woff) format('woff'),url(fonts/pragmatica-light-v2.ttf) format('truetype');font-weight:300;font-style:normal}@font-face{font-family:pragmatica;src:url(fonts/pragmatica-regular-v2.eot);src:url(fonts/pragmatica-regular-v2.eot?#iefix) format('embedded-opentype'),url(fonts/pragmatica-regular-v2.woff) format('woff'),url(fonts/pragmatica-regular-v2.ttf) format('truetype');font-weight:400;font-style:normal}@font-face{font-family:pragmatica;src:url(fonts/pragmatica-medium-v2.eot);src:url(fonts/pragmatica-medium-v2.eot?#iefix) format('embedded-opentype'),url(fonts/pragmatica-medium-v2.woff) format('woff'),url(fonts/pragmatica-medium-v2.ttf) format('truetype');font-weight:600;font-style:normal}@font-face{font-family:pfhighway;src:url(fonts/pfhighway-thin-v2.eot);src:url(fonts/pfhighway-thin-v2.eot?#iefix) format('embedded-opentype'),url(fonts/pfhighway-thin-v2.woff) format('woff'),url(fonts/pfhighway-thin-v2.ttf) format('truetype');font-weight:100;font-style:normal}
-        
-        #projects_link:hover {
-            color: #09736b;
-            text-decoration: underline !important;
-        }
     </style>
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
 </head>
 <body style="margin: 0;">
+
     
-    <div style="position: fixed;top: 0; left: 0;background: white;width: 100%;padding: 15px;color: black;-webkit-box-shadow: 0px 0px 8px 2px rgba(0,0,0,.1);
-       -moz-box-shadow: 0px 0px 8px 2px rgba(0,0,0,.1);z-index: 1000;height: 40px;line-height: 40px;
-            box-shadow: 0px 0px 8px 2px rgba(0,0,0,.1);">
-        
-        <div style="float: left;padding-left: 15px;">
-    	    <img src="images/logo4.png" style="vertical-align: middle;" />
-        </div>
-        
-        <!--<div style="float: left;line-height: 30px;margin-left: 30px;">
-    	    Поиск специалистов в Тюмени и области
-        </div>-->
-        
-        <div style="float: right;margin-right: 40px;font-size: 1.1em;">
-            <i class="fa fa-shopping-cart" aria-hidden="true" style="color: #09736b;margin-right: 5px;font-size: 1.4em;vertical-align:middle"></i>
-            <a id="projects_link" href="index.php" style="line-height: 30px;font-weight: normal;margin-right: 40px;text-decoration: none;">Личный кабинет</a>
-            
-            <i class="fa fa-phone" aria-hidden="true" style="color: #09736b;margin-right: 5px;font-size: 1.4em;vertical-align:middle"></i>
-            <b style="line-height: 30px;font-weight: normal;">(3452) 38-72-11</b>
-        </div>
-        
-        <div style="clear: both;"></div>
-    </div>
+    <div id="app"></div>
+    
+
     
     
-    <div style="background: url(MG_2477.png); background-size: cover;background-position: 50% 50%;min-height: 400px;height: 550px;border-bottom: 1px solid #666666;margin-top: 60px;text-align: center">
-        
-        <h1 id="first_question" style="opacity: 0;font: 100 30px pfhighway,Helvetica,Arial,sans-serif;padding-top: 80px;">
-            <span style="background: #09736b;padding: 15px;border-radius: 5px;margin-left: 20%;">
-                <span style="width: 15px;display: inline-block;text-align: left;">
-                    <i class="fa fa-square-o" aria-hidden="true" style="font-size: 0.6em;"></i>
-                </span>
-                <span style="margin-left: 10px;">Сломался телефон?</span>
-            </span>
-        </h1>
-        
-        <h1 id="second_question" style="opacity: 0;font: 100 30px pfhighway,Helvetica,Arial,sans-serif;padding-top: 30px;">
-            <span style="background: #09736b;padding: 15px;border-radius: 5px;margin-right: 20%;">
-                <span style="width: 15px;display: inline-block;text-align: left;">
-                    <i class="fa fa-square-o" aria-hidden="true" style="font-size: 0.6em;"></i>
-                </span>
-                <span style="margin-left: 10px;">Переживаете за свои деньги?</span>
-            </span>
-        </h1>
-        
-        <h1 id="third_question" style="opacity: 0;font: 100 35px pfhighway,Helvetica,Arial,sans-serif;padding-top: 8px;">
-            <span style="width: 15px;display: inline-block;text-align: left;">
-                <i class="fa fa-square-o" aria-hidden="true" style="font-size: 0.6em;"></i>
-            </span>
-            <span style="margin-left: 10px;">Устали от недобросовестных работников?</span>
-        </h1>
-        
-        <div style="clear: both;"></div>
-        
-        <h1 id="welcome" style="opacity: 0;font: 100 45px pfhighway,Helvetica,Arial,sans-serif;color: white;margin: 100px auto 50px auto;text-align: center;position: relative;padding: 18px;background: #09736b;width: 40%;border-radius: 15px;">
-            Добро пожаловать в ЮTech!
-        </h1>
-        <div style="clear: both;"></div>
-    </div>
-    
-    
-        <div style="color: black;margin: 50px 30px 10px 30px;text-align: center;">
-        <h1 style="font: 100 50px pfhighway,Helvetica,Arial,sans-serif;">Что вы хотите сделать?</h1>
-    </div>
-    
-    
-    <div style="text-align: left;margin: 30px 0 70px 0;color: #666666;">
-        <div style="float: left;width: 30%;padding-left: 20%;font-weight: 600;font-size: 20px;">
-            Наши категории:
-            <table style="font-weight: normal;margin: 15px 0 0 20px;">
-                <tr>
-                    <td style="color: #09736b;"><i class="fa fa-bath" aria-hidden="true"></i></td>
-                    <td style="padding: 10px;"><span style="margin-left: 10px;">Сантехника</span></td>
-                </tr>
-                <tr>
-                    <td style="color: #09736b;"><i class="fa fa-bolt" aria-hidden="true"></i></td>
-                    <td style="padding: 10px;"><span style="margin-left: 10px;">Электрика</span></td>
-                </tr>
-                <tr>
-                    <td style="color: #09736b;"><i class="fa fa-building" aria-hidden="true"></i></td>
-                    <td style="padding: 10px;"><span style="margin-left: 10px;">Строительство</span></td>
-                </tr>
-                <tr>
-                    <td style="color: #09736b;"><i class="fa fa-wrench" aria-hidden="true"></td>
-                    <td style="padding: 10px;"><span style="margin-left: 10px;">Ремонт</span></td>
-                </tr>
-                <tr>
-                    <td style="color: #09736b;"><i class="fa fa-fire-extinguisher" aria-hidden="true"></i></td>
-                    <td style="padding: 10px;"><span style="margin-left: 10px;">Пожарная безопасность</span></td>
-                </tr>
-            </table>
-        </div>
-        
-        <div style="float: left;width: 50%;text-align: left;font-weight: 600;font-size: 20px;">
-            Ваша мечта всего в одном клике от Вас.<br /><br />
-            <span style="font-weight: normal;">
-                Станьте верифицированным специалистом ЮTech или найдите своего мастера.<br />
-                Победим кризис вместе!
-            </span>
-            <br /><br /><br />
-            <a href="/index.php?e=users&m=register" class="lipkiButton">
-                 Я &mdash; ЗАКАЗЧИК<i class="fa fa-user-plus" aria-hidden="true" style="margin-left: 20px;"></i>
-            </a>
-            
-            <a href="/index.php?e=contact" style="margin-left: 30px;background-color: #bbbbbb;" class="lipkiButton">
-                Я &mdash; МАСТЕР<i class="fa fa-user-circle" aria-hidden="true" style="margin-left: 20px;"></i>
-            </a>
-            <br /><br /><br /><br /><br /><br />
-        </div>
-        <div style="clear: both;"></div>
-    </div>
-    
-    
-    <div style="color: black;margin: 50px 30px 100px 30px;text-align: center;">
+    <!--<div style="color: black;margin: 50px 30px 100px 30px;text-align: center;">
         <h1 style="font: 100 50px pfhighway,Helvetica,Arial,sans-serif;">Как это работает?</h1>
         
         <div style="text-align: center;font-weight: 100;color: white;font: 100 18px pfhighway,Helvetica,Arial,sans-serif;">
@@ -279,7 +166,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div>-->
     
     <div style="color: black;margin: 50px 30px 10px 30px;text-align: center;">
         <h1 style="font: 100 50px pfhighway,Helvetica,Arial,sans-serif;">Наши клиенты</h1>
@@ -360,5 +247,6 @@
         <div style="clear: both;">
         </div>
     </div>
+    <script src="dist/main.js"></script>
 </body>
 </html>
