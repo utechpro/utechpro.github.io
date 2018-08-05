@@ -46,7 +46,7 @@
 
 <style>
 #app {
-  font-family: pfhighway,Helvetica,sans-serif;
+  font-family: pfhighway,Helvetica,sans-serif !important;
   color: white;
   text-align: center;
 }

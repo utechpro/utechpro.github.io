@@ -17,8 +17,26 @@
         </div>
     </div>
     
+    <div style="background: #09736b;color: white;padding: 40px 20px 20px 30px;font-size: 2em;">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    Оргтехника и смартфоны<br />
+                    <i class="fa fa-mobile" aria-hidden="true" style="font-size: 100px;"></i>
+                </div>
+                <div class="col-12 col-md-4">
+                    Принтеры и картриджи
+                    <br /> <i class="fa fa-print" aria-hidden="true" style="font-size: 70px;margin-top: 15px;"></i> 
+                </div>
+                <div class="col-12 col-md-4">
+                    Серверы и пулеметы
+                    <br /> <i class="fa fa-server" aria-hidden="true" style="font-size: 60px;margin-top: 18px;"></i>
+                </div>
+            </div>
+        </div>
+    </div>
 
-    
+    <!--
     <div style="background: url(MG_2477.png); background-size: cover;background-position: 50% 50%;min-height: 400px;height: 550px;border-bottom: 1px solid #666666;margin-top: 60px;text-align: center">
         
         <h1 id="first_question" style="opacity: 0;font: 100 30px pfhighway,Helvetica,Arial,sans-serif;padding-top: 80px;">
@@ -52,9 +70,9 @@
             Добро пожаловать в ЮTech!
         </h1>
         <div style="clear: both;"></div>
-    </div>
+    </div>-->
 
-    <div style="color: black;margin: 50px 30px 10px 30px;text-align: center;">
+    <!--<div style="color: black;margin: 50px 30px 10px 30px;text-align: center;">
         <h1 style="font: 100 50px pfhighway,Helvetica,Arial,sans-serif;">Что вы хотите починить?</h1>
     </div>
     
@@ -103,7 +121,7 @@
             <br /><br /><br /><br /><br /><br />
         </div>
         <div style="clear: both;"></div>
-    </div>
+    </div>-->
   </div>
 </template>
 
